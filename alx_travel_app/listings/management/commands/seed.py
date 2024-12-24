@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from listings.models import Listing
+from alx_travel_app.listings.models import Listing
 
 class Command(BaseCommand):
     help = 'Seed the database with sample listings'
